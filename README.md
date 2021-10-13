@@ -74,6 +74,7 @@ Outputs: Arrival time, Cases per month and peak ratio.
 
 
 ******* Figures *******
+
 The Figures are produced with the file "ScriptForFigures.R"
 
 
