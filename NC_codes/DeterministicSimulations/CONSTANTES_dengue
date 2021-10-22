@@ -1,0 +1,17 @@
+/* rates  */
+   
+   C.IncubationPeriod=17.;
+   C.mh=C.nh=1/(70*365);
+   C.b0=1.15/C.IncubationPeriod;
+   C.delta=0.99;
+   C.phi=1.999595;//1.159567;
+   C.t0Month=2.4; // initial time in month. t0Month=0 corresponds to 1st Oct
+   // we are not using this
+   C.Inf0=0;
+   
+
+
+
+
+ 
+
