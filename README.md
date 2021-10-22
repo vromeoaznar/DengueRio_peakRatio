@@ -32,12 +32,16 @@ the (Number_of_humans_per_unit,t0Month) sets used to produce Fig 3 are:
 (1200, 2.547541)
 (3000, 2.285246)
 these set of values are in DeterministicValues.Rdata, as well as the corresponding peak ratio.
+
+
 Obs. The C.toMonth value is provided in the file CONSTANTES_dengue. Since the deterministic runs use October as month 0 and the empirical dataset October is month 1, Fig 3B uses t0Month+1.
 
 
 The code outputs are the number of events per day (X type, the types are definied in dengue.c) (output file: base_file_name_to_use-EX.dat) and number of suceptibles (base_file_name_to_use-P0.dat), infectious (base_file_name_to_use-P1.dat) and recovered (base_file_name_to_use-P2.dat) people per day per unit.
 
+
 AnalysisRunsSIR_determ_C.R reads base_file_name_to_use-P1.dat and computes the monthly peak ratio (see values in DeterministicValues.Rdata)
+
 
 *************** Random Simulations **********************
 SIR_SparkSpatialModel_Prob.R is the code (main body) for an SIR stochastic model (demographic noise) with the different events represented as Poisson processes.  
@@ -78,6 +82,9 @@ Outputs: Arrival time, Cases per month and peak ratio.
 The Figures are produced with the file "ScriptForFigures.R"
 
 
+****** the sparks ******
+
+sparks are computed with "CompOfSparks.R". These produced datasets are used as input for the random simulations
 
 
 
