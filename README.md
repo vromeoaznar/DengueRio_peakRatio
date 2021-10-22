@@ -44,6 +44,7 @@ AnalysisRunsSIR_determ_C.R reads base_file_name_to_use-P1.dat and computes the m
 
 
 *************** Random Simulations **********************
+
 SIR_SparkSpatialModel_Prob.R is the code (main body) for an SIR stochastic model (demographic noise) with the different events represented as Poisson processes.  
 It is implemented in R (3.6.3)with the package POMP (2.8) 
 
