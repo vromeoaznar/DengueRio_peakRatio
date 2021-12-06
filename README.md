@@ -23,15 +23,25 @@ Number_of_humans_per_unit is a float number
 The sets of (Number_of_humans_per_unit, t0Month) used to produce Fig 3 are:
 
 (20, 5.170492)
+
 (45, 4.744262)
+
 (55, 4.44918)
+
 (119, 3.760656)
+
 (203, 3.432787)
+
 (400, 3.039344)
+
 (550, 2.87541)
+
 (675, 2.777049)
+
 (850, 2.629508)
+
 (1200, 2.547541)
+
 (3000, 2.285246)
 
 these sets and their corresponding peak ratio (i.e. the value of the peak ratio obtained for each of the sets of (Number_of_humans_per_unit, t0Month) shown above) are found in the DeterministicValues.Rdata file. 
